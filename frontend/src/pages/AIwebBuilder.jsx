@@ -33,7 +33,7 @@ const AIwebBuilder = () => {
       setUsage(null);
       setStatus("Sending request...");
 
-      const res = await fetch("http://localhost:8000/api/ai/test", {
+      const res = await fetch("https://dumyweb.onrender.com/api/ai/test", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
